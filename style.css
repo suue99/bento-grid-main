@@ -26,9 +26,6 @@ body {
   margin: 0 auto;
   padding: 5rem 3.2rem;
   font-family: DM Sans;
-}
-
-.grid {
   gap: 1rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -308,4 +305,75 @@ body {
   align-self: center;
   height: 14rem;
   width: auto;
+}
+
+@media (max-width: 425px) {
+  .attribution {
+    display: none;
+  }
+
+  .grid-container {
+    max-width: 25rem;
+    margin: 20px;
+    padding: 5rem 3.2rem;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+  }
+  .grid-create {
+    background-color: hsl(31, 66%, 93%);
+    border: none;
+    border-radius: 0.5rem;
+    width: 15rem;
+    height: 40rem;
+  }
+
+  .grid-manage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    align-self: center;
+    height: 30rem;
+    width: 15rem;
+    margin-top: 30px;
+  }
+
+  .grid-maintain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(39, 100%, 71%);
+    border: none;
+    border-radius: 0.5rem;
+    align-self: center;
+    height: 20rem;
+    width: 15rem;
+    margin-top: 20px;
+  }
+
+  .grid-schedule {
+    display: flex;
+    flex-direction: column;
+    background-color: #c8b9f1;
+    border: none;
+    border-radius: 0.5rem;
+    height: 31.75rem;
+    width: 15rem;
+  }
+
+  .grid-grow {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+    background-color: #7650dc;
+    border: none;
+    border-radius: 0.5rem;
+    width: 25rem;
+
+    height: 14rem;
+  }
 }
