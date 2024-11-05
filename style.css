@@ -1,3 +1,7 @@
+/***************************/
+/*GENERAL STYLING*/
+/***************************/
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +16,10 @@ body {
   background-color: #dad2d2f2;
   font-family: DM Sans;
 }
+
+/***************************/
+/*CONTAINER STYLING*/
+/***************************/
 
 .grid-container {
   max-width: 110rem;
@@ -34,6 +42,10 @@ body {
   width: 8rem;
 }
 
+/***************************/
+/* CREATE STYLING*/
+/***************************/
+
 .grid-create {
   display: flex;
   flex-direction: column;
@@ -48,8 +60,9 @@ body {
 
 .grid-create img {
   width: auto;
-  height: 6.2rem;
+  height: 5rem;
   padding: 0.1rem;
+  margin-top: -1rem;
 }
 
 .create-text {
@@ -59,6 +72,10 @@ body {
   color: black;
   line-height: 1;
 }
+
+/***************************/
+/* MANAGE GRID STYLING*/
+/***************************/
 
 .grid-manage {
   display: flex;
@@ -74,6 +91,31 @@ body {
   margin-top: -10px;
 }
 
+.grid-manage img {
+  width: auto;
+  height: 4rem;
+  padding: 0.1rem;
+  margin-top: 1rem;
+  margin-right: -100px;
+  clip-path: inset(0 27.5% 0 0);
+  align-self: center;
+}
+
+.manage-text {
+  align-self: center;
+  width: 10rem;
+  font-size: 1.5rem;
+  color: #000;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-right: 0.2rem;
+  margin-left: -2rem;
+}
+
+/***************************/
+/* MAINTAIN GRID STYLING*/
+/***************************/
+
 .grid-maintain {
   display: flex;
   flex-direction: column;
@@ -88,6 +130,32 @@ body {
   margin-top: -10px;
 }
 
+.maintain-text {
+  align-self: center;
+  width: 10rem;
+  font-size: 1.8rem;
+  color: #000;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-right: 0.2rem;
+  margin-left: -2rem;
+  margin-bottom: 1rem;
+}
+
+.grid-maintain img {
+  width: auto;
+  height: 9.2rem;
+  padding: 0.1rem;
+  margin-top: 0.3rem;
+
+  clip-path: inset(0 0 40% 0);
+  align-self: center;
+}
+
+/***************************/
+/* SCHEDULE GRID STYLING*/
+/***************************/
+
 .grid-schedule {
   display: flex;
   flex-direction: column;
@@ -98,6 +166,10 @@ body {
   grid-row: -5/-2;
   height: 31.75rem;
 }
+
+/***************************/
+/* SOCIAL GRID STYLING*/
+/***************************/
 
 .grid-social {
   display: flex;
@@ -112,6 +184,21 @@ body {
   margin-bottom: -3rem;
 }
 
+.social-text {
+  font-size: 3rem;
+  padding: 1rem;
+  line-height: 1;
+  width: 25rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+/***************************/
+/*FASTER GRID STYLING*/
+/***************************/
+
 .grid-faster {
   display: flex;
   flex-direction: column;
@@ -124,10 +211,14 @@ body {
   margin-top: -4rem;
   margin-bottom: 0.3rem;
 }
+
+/***************************/
+/*GROW GRID STYLING*/
+/***************************/
+
 .grid-grow {
   display: flex;
   flex-direction: row-reverse;
-
   align-self: center;
   background-color: #7650dc;
   border: none;
@@ -152,6 +243,10 @@ body {
   margin-right: 0.2rem;
 }
 
+/***************************/
+/* WRITE GRID STYLING */
+/***************************/
+
 .grid-write {
   display: flex;
   flex-direction: column;
@@ -160,5 +255,21 @@ body {
   border-radius: 0.5rem;
   grid-row: 3/5;
   margin-top: -0.5rem;
-  height: 22rem;
+  height: 22.5rem;
+}
+
+.write-text {
+  padding: 2rem;
+  width: 15rem;
+  font-size: 28px;
+  color: black;
+  line-height: 1;
+}
+
+.grid-write img {
+  padding: 1rem;
+  margin-top: -1rem;
+  align-self: center;
+  height: 12.3rem;
+  width: auto;
 }
