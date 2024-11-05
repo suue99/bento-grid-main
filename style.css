@@ -147,7 +147,6 @@ body {
   height: 9.2rem;
   padding: 0.1rem;
   margin-top: 0.3rem;
-
   clip-path: inset(0 0 40% 0);
   align-self: center;
 }
@@ -165,6 +164,32 @@ body {
   grid-column: 4/5;
   grid-row: -5/-2;
   height: 31.75rem;
+}
+
+.schedule-header {
+  padding: 2rem;
+  font-weight: 400;
+  margin-top: 1.5rem;
+}
+
+.grid-schedule img {
+  width: auto;
+  height: 15rem;
+  padding: 0.1rem;
+  margin-top: -1rem;
+  margin-right: -90px;
+  margin-bottom: 1rem;
+  clip-path: inset(0 27.5% 0 0);
+  align-self: center;
+}
+
+.schedule-text {
+  align-self: center;
+  width: 10rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #000;
+  line-height: 1;
 }
 
 /***************************/
@@ -210,6 +235,17 @@ body {
   height: 14rem;
   margin-top: -4rem;
   margin-bottom: 0.3rem;
+}
+
+.faster-text {
+  align-self: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.grid-faster img {
+  align-self: center;
+  margin-top: 2rem;
 }
 
 /***************************/
@@ -270,6 +306,6 @@ body {
   padding: 1rem;
   margin-top: -1rem;
   align-self: center;
-  height: 12.3rem;
+  height: 14rem;
   width: auto;
 }
